@@ -1,0 +1,29 @@
+GET localhost:8080/test
+
+###
+POST localhost:8080/createProduct
+Content-Type: application/json
+
+{
+  "title": "dsfs",
+  "price": 123
+}
+
+###
+GET localhost:8080/getAllProducts
+
+###
+GET localhost:8080/getProduct/1
+
+###
+PUT localhost:8080/updateProduct/1
+Content-Type: application/json
+
+{
+  "title": "dsfs",
+  "price": 123
+}
+
+###
+DELETE localhost:8080/deleteProduct/1
+
